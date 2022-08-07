@@ -1,0 +1,2 @@
+#@BotFather
+TOKEN = "INSERT YOUR'S VALURE HERE"
