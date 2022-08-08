@@ -61,11 +61,6 @@ async def process_start_command(message: types.Message):
     await bot.send_message(sent_tlg, text="Данный бот подскажет пароль от ВиФи\nНужно ткнуть на кнопку и ждать результат", reply_markup=nav.mainMenu)
 
 
-@dp.message_handler(commands=['wifi'])
-async def process_start_command(message: types.Message):
-    #await message.reply("Привет!\nНапиши мне что-нибудь!")
-    await bot.send_message(sent_tlg, text="Данный бот подскажет пароль от ВиФи\nНужно ткнуть на кнопку и ждать результат", reply_markup=nav.mainMenu)
-
 
 # бот будет постоянно спрашивать у сервера Телеграмма «Мне кто-нибудь написал?»,
 # bot.polling(none_stop=True, interval=1)
