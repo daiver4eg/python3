@@ -12,7 +12,7 @@ bot = Bot(token=TOKEN)
 dp = Dispatcher(bot)
 #Режим работы бота
 ###@myidbot    /getgroupid@myidbot
-sent_tlg = "INSERT YOUR VALUE HERE"
+sent_tlg = INSERT YOUR VALUE HERE
 
 
 ## message.from_user.id
